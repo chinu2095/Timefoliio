@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="style.css" rel="stylesheet" >
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class=" relative  text-black  h-full px-0 py-0 flex flex-col ">
+
+  <!-- NAV BAR -->
+  <nav class=" position-fixed flex  justify-between items-center px-5 py-4 text-sm relative z-10 ">
+    <div class="flex gap-12">
+      <div>
+        <p class="font-medium hover:text-white">India Based</p>
+        <p class="text-gray-500 hover:text-white">Working globally</p>
+      </div>
+      <div>
+        <p class="font-medium hidden lg:block hover:text-white">Building At</p>
+        <p class="text-gray-500 hidden lg:block hover:text-white">My Desk</p>
+      </div>
+      <div>
+        <p class="font-medium hidden md:block hover:text-white">Freelance Availability</p>
+        <p class="text-gray-500 hidden md:block hover:text-white">September</p>
+      </div>
+    
+    </div>
+    <button class="bg-black text-white px-4 py-2 rounded-full font-medium hover:bg-white hover:text-black nav-button  ">
+      Get in touch
+    </button>
+  </nav>
+
+    <!-- Glass effect card -->
+    <div class="bg-white-20 backdrop-blur-3xl border border-white/10 shadow-1.5xl rounded-1xl py-1 max-w-30  text-black border-b-none z-10 "></div>    
+
+  
+  <!-- HERO -->
+  <section class="border-green-500 flex flex-col items-center justify-center flex-1 text-center  relative">
+    <img src="assets/hero.JPG" alt="img" placeholder="blur" class=" z-0 heroImg my-[10px]  ">
+    <h1 class=" sticky top-30 text-gray-800 text-[4rem] md:text-[8rem] md:mt-[vh] xl:text-[10rem] mt-[20vh] font-extrabold tracking-tight leading-none hover:text-gray-800 z-20">
+      PRIYANSHU
+    </h1>
+  </section>
+  
+
+
+ 
+
+  <!-- BLOBS -->
+
+
+  <div class="w-full">
+    <!-- About Section -->
+    <section class="w-full min-h-dvh bg-black flex flex-col justify-center px-6 sm:px-12 lg:px-24 text-white">
+      <h1 class="text-3xl sm:text-5xl lg:text-6xl font-bold mb-6">Myself</h1>
+      <p class="text-base sm:text-3xl lg:text-6xl  max-w-4xl leading-relaxed">
+        I blend design and engineering to create seamless, interactive experiences. With attention to motion, performance, and detail, I help modern brands bring their digital products to life.
+      </p>
+    </section>
+  
+    <!-- Project 1 -->
+    <section class="w-full min-h-dvh bg-gray-200   rounded-3xl flex items-center justify-center px-6">
+      <h2 class="text-3xl sm:text-5xl lg:text-6xl font-semibold text-center">Weather App</h2>
+    </section>
+  
+    <!-- Project 2 -->
+    <section class="w-full min-h-dvh bg-gray-800/70 backdrop-blur-md flex items-center justify-center px-6">
+      <h2 class="text-3xl sm:text-5xl lg:text-6xl font-semibold text-white text-center">This is for bak bak</h2>
+    </section>
+  
+    <!-- Project 3 -->
+    <section class="w-full min-h-dvh bg-black flex items-center justify-center px-6">
+      <h2 class="text-3xl sm:text-5xl lg:text-6xl font-semibold text-white text-center">Another Project</h2>
+    </section>
+  
+    <!-- Project 4 -->
+    <section class="w-full min-h-dvh bg-white flex items-center justify-center px-6">
+      <h2 class="text-3xl sm:text-5xl lg:text-6xl font-semibold text-black text-center">Yet Another One</h2>
+    </section>
+  
+    <!-- Project 5 -->
+    <section class="w-full min-h-dvh bg-white/20 backdrop-blur-lg flex items-center justify-center px-6">
+      <h2 class="text-3xl sm:text-5xl lg:text-6xl font-semibold text-black text-center">Final Project</h2>
+    </section>
+  </div>
+  
+  
+
+  <footer class="grid h-[50vh] w-full bg-black text-gray-300 p-8 ">
+    <div class="flex flex-col md:flex-row justify-between items-center w-full max-w-6xl mx-auto">
+      <p class="text-sm">&copy; 2025 YourName. All rights reserved.</p>
+      <div class="flex gap-4 mt-4 md:mt-0">
+        <a href="#" class="hover:text-white">About</a>
+        <a href="#" class="hover:text-white">Projects</a>
+        <a href="#" class="hover:text-white">Contact</a>
+      </div>
+    </div>
+  </footer>
+  
+
+  
+
+</body>
+</html>
