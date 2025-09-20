@@ -6,6 +6,9 @@
   <title>Portfolio</title>
   <link href="style.css" rel="stylesheet" >
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 </head>
 <body class=" relative  text-black  h-full px-0 py-0 flex flex-col ">
@@ -31,29 +34,45 @@
       Get in touch
     </button>
   </nav>
+  <div class="h-[100vh] w-[100vw]">
+    <section class="border-green-500 flex flex-col items-center justify-center flex-1 text-center  relative h-[50vh]">
+      <h1 class=" sticky top-30 text-gray-800 text-[4rem] md:text-[8rem] md:mt-[vh] xl:text-[10rem] mt-[20vh] font-extrabold tracking-tight leading-none hover:text-gray-800 z-20 Hero-name">
+        PRIYANSHU
+      </h1>
+    </section>
+    
+  </div>
+
+
+  <div id="gallery">
+    <div class="tile"><img src="assets/f1.jpg"/></div>
+    <div class="tile"><img src="assets/broccoli-8174625_1280.jpg"/></div>
+    <div class="tile"><img src="assets/cat.webp"/></div>
+    <div class="tile"><img src="assets/insect.webp"/></div>
+    <div class="tile"><img src="assets/knight.jpg"/></div>
+    <div class="tile"><img src="assets/kungfu.jpg"/></div>
+    <div class="tile"><img src="assets/school-boy.webp"/></div>
+    <div class="tile"><img src="assets/sheep.jpg"/></div>
+    <div class="tile"><img src="assets/tex.png"/></div>
+    <div class="tile"><img src="assets/tv-pixalated.png"/></div>
+</div>
 
     <!-- Glass effect card -->
     <div class="bg-white-20 backdrop-blur-3xl border border-white/10 shadow-1.5xl rounded-1xl py-1 max-w-30  text-black border-b-none z-10 "></div>    
 
   
   <!-- HERO -->
-  <section class="border-green-500 flex flex-col items-center justify-center flex-1 text-center  relative">
-    <img src="assets/hero.JPG" alt="img" placeholder="blur" class=" z-0 heroImg my-[10px]  ">
-    <h1 class=" sticky top-30 text-gray-800 text-[4rem] md:text-[8rem] md:mt-[vh] xl:text-[10rem] mt-[20vh] font-extrabold tracking-tight leading-none hover:text-gray-800 z-20">
-      PRIYANSHU
-    </h1>
-  </section>
-  
+
 
 
  
 
-  <!-- BLOBS -->
+
 
 
   <div class="w-full">
     <!-- About Section -->
-    <section class="w-full min-h-dvh bg-black flex flex-col justify-center px-6 sm:px-12 lg:px-24 text-white">
+    <section class="w-full min-h-dvh bg-black flex flex-col justify-center px-6 sm:px-12 lg:px-24 text-white z-10">
       <h1 class="text-3xl sm:text-5xl lg:text-6xl font-bold mb-6">Myself</h1>
       <p class="text-base sm:text-3xl lg:text-6xl  max-w-4xl leading-relaxed">
         I blend design and engineering to create seamless, interactive experiences. With attention to motion, performance, and detail, I help modern brands bring their digital products to life.
@@ -61,7 +80,7 @@
     </section>
   
     <!-- Project 1 -->
-    <section class="w-full min-h-dvh bg-gray-200   rounded-3xl flex items-center justify-center px-6">
+    <section class="w-full min-h-dvh bg-gray-200   rounded-3xl flex items-center justify-center px-6 z-10">
       <h2 class="text-3xl sm:text-5xl lg:text-6xl font-semibold text-center">Weather App</h2>
     </section>
   
@@ -81,9 +100,7 @@
       <h2 class="text-3xl sm:text-5xl lg:text-6xl font-semibold text-black text-center">Final Project</h2>
     </section>
   </div>
-  
-  
-
+<
   <footer class="grid h-[50vh] w-full bg-black text-gray-300 p-8 ">
     <div class="flex flex-col md:flex-row justify-between items-center w-full max-w-6xl mx-auto">
       <p class="text-sm">&copy; 2025 YourName. All rights reserved.</p>
@@ -95,8 +112,8 @@
     </div>
   </footer>
   
+  <script src="script.js"> 
 
-  
-
+  </script>
 </body>
 </html>
