@@ -77,9 +77,9 @@ font-face{
 .tile:nth-child(6) {height: 25vmin; width: 30vmin; left: 88%; top: 18%; rotate: 270deg; }
 .tile:nth-child(7) {height: 25vmin; width: 30vmin; left: 50%; top: 84%; }
 .tile:nth-child(8) {height: 25vmin; width: 30vmin; left: 80%; top: 42%;}
-.tile:nth-child(9) {height: 20vmin; width: 30vmin; left: 94%; top: 78%; }
+.tile:nth-child(11) {height: 20vmin; width: 30vmin; left: 94%; top: 78%; }
 .tile:nth-child(10) {height: 25vmin; width: 30vmin; left: 0%; top: 104%; }
-.tile:nth-child(11) {height: 25vmin; width: 30vmin; left: 98%; top: 104%;}
+.tile:nth-child(9) {height: 25vmin; width: 30vmin; left: 98%; top: 104%;}
 
 .weather-pg:before{
   background-color: rgba(232, 110, 110, 0.3); /* semi-transparent */
