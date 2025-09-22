@@ -63,6 +63,7 @@
     <div class="tile"><img src="assets/sheep.jpg"/></div>
     <div class="tile"><img src="assets/tex.png"/></div>
     <div class="tile"><img src="assets/tv-pixalated.png"/></div>
+    <div class="tile"><img src="assets/scyduck.jpg" ></div>
 </div>
 
     <!-- Glass effect card -->
@@ -79,34 +80,56 @@
 
   <div class="w-full">
     <!-- About Section -->
-    <section class="w-full min-h-dvh bg-black flex flex-col justify-center px-6 sm:px-12 lg:px-24 text-white z-10">
-      <h1 class="text-3xl sm:text-5xl lg:text-6xl font-bold mb-6">Myself</h1>
-      <p class="text-base sm:text-3xl lg:text-6xl  max-w-4xl leading-relaxed">
+    <section class=" h-[100vh] bg-black flex flex-col justify-center px-6 sm:px-12 lg:px-24 text-white">
+      <h1 class=" sm:text-[44px] lg:text-6xl font-bold mb-6 block">Myself</h1>
+      <p class="text-base   about-para">
         I blend design and engineering to create seamless, interactive experiences. With attention to motion, performance, and detail, I help modern brands bring their digital products to life.
       </p>
     </section>
   
     <!-- Project 1 -->
-    <section class="w-full min-h-dvh bg-gray-200   rounded-3xl flex items-center justify-center px-6 z-10">
-      <h2 class="text-3xl sm:text-5xl lg:text-6xl font-semibold text-center">Weather App</h2>
+    <section class=" bg-gray-300 w-[100vw] h-[100vh] bg-gray-100 overflow-hidden  flex flex-col items-center justify-center   ">
+      <div class="py-[50px] "><h1 class=" font-extrabold text-[4rem] leading-tight">Weather Apk</h1></div>
+      <div class="rounded-2xl bg-white/20 backdrop-blur-2xl shadow-lg p-6 w-80 flex flex-col justify-between weather-pg z-10">
+        <div>
+          <div class="flex justify-between items-start mb-6">
+            <div>
+              <p class="text-lg font-semibold">Mon</p>
+              <p class="text-gray-400 text-xl -mt-1">22nd</p>
+            </div>
+              
+            <span class="text-md text-gray-500 leading-tight text-right">
+               <br>India
+            </span>
+          </div>
+           <div class="flex block justify-center mb-3"> <input type="text" placeholder="Enter City" class="px-3 py-2 rounded-lg text-black bg-white/50  focus:outline-none focus:border-gray-700 z-10 backdrop-blur-3xl"></div>
+           <div class="flex justify-center mb-3">
+            <button class="rounded-xl px-6 py-2 bg-black text-white text-sm hover:bg-gray-800 z-10">Search</button>
+          </div>
+          <!-- Circle / Orange Gradient -->
+          <div class="bg-gradient-to-t from-orange-400 to-orange-200 w-28 h-28 rounded-full mx-auto mb-6 z-10"></div>
+  
+          <p class="text-sm text-gray-600 text-center z-10">
+            6:00 PM <br> currently offline <br> Delhi
+          </p>
+        </div>
+  
+   
+      </div>
+  
     </section>
   
   
     <!-- Project 3 -->
     <section class="w-full min-h-dvh bg-black flex items-center justify-center px-6">
-      <h2 class="text-3xl sm:text-5xl lg:text-6xl font-semibold text-white text-center">Another Project</h2>
+      <h2 class="text-3xl sm:text-5xl lg:text-6xl font-semibold text-white text-center">Amazon Clone</h2>
     </section>
   
     <!-- Project 4 -->
     <section class="w-full min-h-dvh bg-white flex items-center justify-center px-6">
-      <h2 class="text-3xl sm:text-5xl lg:text-6xl font-semibold text-black text-center">Yet Another One</h2>
+      <h2 class="text-3xl sm:text-5xl lg:text-6xl font-semibold text-black text-center"> Another Project yet to decide</h2>
     </section>
   
-    <!-- Project 5 -->
-    <section class="w-full min-h-dvh bg-white/20 backdrop-blur-lg flex items-center justify-center px-6">
-      <h2 class="text-3xl sm:text-5xl lg:text-6xl font-semibold text-black text-center">Final Project</h2>
-    </section>
-  </div>
 
   <footer class="grid h-[50vh] w-full bg-black text-gray-300 p-8 ">
     <div class="flex flex-col md:flex-row justify-between items-center w-full max-w-6xl mx-auto">
@@ -114,7 +137,7 @@
       <div class="flex gap-4 mt-4 md:mt-0">
         <a href="#" class="hover:text-white">links</a>
         <a href="#" class="hover:text-white">About</a>
-        <a href="#" class="hover:text-white">Contact</a>
+        <a href="www.youtube.com" class="hover:text-white">Contact</a>
       </div>
     </div>
   </footer>

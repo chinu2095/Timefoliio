@@ -7,8 +7,8 @@ window.onmousemove = (e) => {
   const xDecimal = mouseX / window.innerWidth,
         yDecimal = mouseY / window.innerHeight;
   
-  const maxX = gallery.offsetWidth - window.innerWidth +400,
-        maxY = gallery.offsetHeight - window.innerHeight+400 ;
+  const maxX = gallery.offsetWidth - window.innerWidth +300,
+        maxY = gallery.offsetHeight - window.innerHeight+300 ;
   
   const panX = maxX * xDecimal * -1,
         panY = maxY * yDecimal * -1;
