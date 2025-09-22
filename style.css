@@ -9,6 +9,7 @@ body{
     overflow-x: hidden;
 }
 
+
 font-face{
   font-family:crude;
   src: url(fonts/Crude.otf);
@@ -18,13 +19,15 @@ font-face{
 
 }
 .notification{
-  background: linear-gradient(rgb(161, 161, 234), rgb(214, 214, 214), rgb(248, 163, 163));
+  background-color:#121111;
   overflow: hidden;
-  font-size: 24px;
+  font-size: 20px;
+  max-width:300px;
+  color:white;
+  font-weight:bold;
   padding:10px;
- 
 }
-@media {;}
+
 
 
 .home-div{
@@ -150,4 +153,13 @@ font-face{
   top: 104%;
 }
 
+@media screen and (max-width: 480px) {
+  .notification{
+    font-size:12px;
+    font-weight:bold;
+    width:50vw;
+    height:auto;
+    line-height: 18px;
+  }
+}
 
