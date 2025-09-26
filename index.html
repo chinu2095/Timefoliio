@@ -11,6 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 </head>
+<div class="dot fixed"></div>
 <body class=" relative  text-black  h-full px-0 py-0 flex flex-col ">
 
   <!-- NAV BAR -->
@@ -30,7 +31,9 @@
       </div>
     
     </div>
-    <button class="bg-black text-white px-4 py-2 rounded-full font-medium hover:bg-white hover:text-black nav-button  ">
+    <button class="bg-black text-white px-4 py-2 rounded-full font-medium  nav-button flex flex-row items-center justify-center home-button ">
+
+<dotlottie-wc src="https://lottie.host/4b844193-ce0e-4751-a5af-70cfd7e9421c/cdlrvj3KyP.lottie" style="width: 50px;height: 25px" class="hidden lottie-cat"  autoplay loop></dotlottie-wc>
       Get in touch
     </button>
   </nav>
@@ -45,11 +48,7 @@
     </section>
     
   </div>
-  <div class=" bottom-[0] right-[0] fixed mx-[15px] my-[15px] rounded-3xl notification flex flex-col items-center">
-    This website is currently in the development phase. Please stay tuned for more updates.
-    <button class="bg-white/40 backdrop-blur-3xl text-white px-[10px] py-[5px] close-button font-bold rounded-xl my-[10px]">Close╳</button>
 
-  </div>
 
 
   <div id="gallery">
@@ -66,6 +65,12 @@
     <div class="tile"><img src="assets/scyduck.jpg" ></div>
 </div>
 
+<div class=" bottom-[0] right-[0] fixed mx-[15px] my-[15px] rounded-3xl notification flex flex-col items-center">
+  This website is currently in the development phase. Please stay tuned for more updates.
+  <button class="bg-white/40 backdrop-blur-3xl text-white px-[10px] py-[5px] close-button font-bold rounded-xl my-[10px]">Close╳</button>
+
+</div>
+
     <!-- Glass effect card -->
  
   
@@ -78,46 +83,58 @@
 
 
 
-  <div class="w-full">
+
     <!-- About Section -->
-    <section class=" h-[120vh] bg-black flex text-white flex-col justify-center items-center  ">
-       <p class="text-[4rem] md:text-[8rem]  xl:text-[8rem] font-bold">CURIOSITY</p>
-       <p class="text-[4rem] md:text-[8rem]  xl:text-[8rem] font-semibold"><i>CREATIVITY</i></p>
-       <p class="text-[4rem] md:text-[8rem]  xl:text-[8rem] font-extrabold">RESULTS</p>
-       <p class="text-[4rem] md:text-[8rem]  xl:text-[8rem] font-medium">DELIVERY</p>
-       <p class="text-[4rem] md:text-[8rem]  xl:text-[8rem] font-bold">DREAM</p>
+    <section class=" h-auto bg-black flex text-white flex-col justify-center items-center py-8 dream-section rounded-t-2xl ">
+       <p class="text-[4.3rem] md:text-[8rem]  xl:text-[8rem] font-bold m-0 p-0"><span class="inline">C</span>
+        <span class="inline m-[0px]">U</span>
+        <span class="inline">R</span>
+        <span class="inline">I</span>
+        <span class="inline">O</span>
+        <span class="inline">C</span>
+        <span class="inline">I</span>
+        <span class="inline">T</span>
+        <span class="inline">Y</span></p>
+       <p class="text-[4.3rem] md:text-[8rem]  xl:text-[8rem] font-bold">CREATIVITY</p>
+       <p class="text-[4.3rem] md:text-[8rem]  xl:text-[8rem] font-bold">RESULTS</p>
+       <p class="text-[4.3rem] md:text-[8rem]  xl:text-[8rem] font-bold">DELIVERY</p>
+       <button class="text-[4.3rem] md:text-[8rem]  xl:text-[8rem] font-bold dreamzz">DREAM</button>
      
+    </section>
+    <section>
+      hello 
     </section>
   
     <!-- Project 1 -->
     <section class=" bg-gray-300 w-[100vw] h-[100vh] bg-gray-100 overflow-hidden  flex flex-col items-center justify-center">
       <div class="py-[50px] "><h1 class=" font-extrabold text-[4rem] leading-tight">Weather Apk</h1></div>
-      <div class="rounded-2xl bg-white/20 backdrop-blur-2xl shadow-lg p-6 w-80 flex flex-col justify-between weather-pg z-10">
-        <div>
-          <div class="flex justify-between items-start mb-6">
-            <div>
-              <p class="text-lg font-semibold">Mon</p>
-              <p class="text-gray-400 text-xl -mt-1">22nd</p>
+      <form >
+        <div class="rounded-2xl bg-white/20 backdrop-blur-2xl shadow-lg p-6 w-80 flex flex-col justify-between weather-pg z-10">
+          <div>
+            <div class="flex justify-between items-start mb-6">
+              <div>
+                <p class="text-lg font-semibold">Mon</p>
+                <p class="text-gray-400 text-xl -mt-1">22nd</p>
+              </div>
+                
+              <span class="text-md text-gray-500 leading-tight text-right">
+                 <br>India
+              </span>
             </div>
-              
-            <span class="text-md text-gray-500 leading-tight text-right">
-               <br>India
-            </span>
+             <div class="flex block justify-center mb-3"> <input type="text" placeholder="Enter City" class="px-3 py-2 rounded-lg text-black bg-white/50  focus:outline-none focus:border-gray-700 z-10 backdrop-blur-3xl cityInput"></div>
+             <div class="flex justify-center mb-3">
+              <button class="rounded-xl px-6 py-2 bg-black text-white text-sm hover:bg-gray-800 z-10">Search</button>
+            </div>
+            <!-- Circle / Orange Gradient -->
+    
+            <p class="text-sm text-gray-600 text-center z-10">
+              6:00 PM <br> currently offline <br> Delhi
+            </p>
           </div>
-           <div class="flex block justify-center mb-3"> <input type="text" placeholder="Enter City" class="px-3 py-2 rounded-lg text-black bg-white/50  focus:outline-none focus:border-gray-700 z-10 backdrop-blur-3xl"></div>
-           <div class="flex justify-center mb-3">
-            <button class="rounded-xl px-6 py-2 bg-black text-white text-sm hover:bg-gray-800 z-10">Search</button>
-          </div>
-          <!-- Circle / Orange Gradient -->
-          <div class="bg-gradient-to-t from-orange-400 to-orange-200 w-28 h-28 rounded-full mx-auto mb-6 z-10"></div>
-  
-          <p class="text-sm text-gray-600 text-center z-10">
-            6:00 PM <br> currently offline <br> Delhi
-          </p>
         </div>
-  
-   
-      </div>
+
+      </form>
+ 
   
     </section>
   
@@ -128,12 +145,12 @@
     </section>
   
     <!-- Project 4 -->
-    <section class="w-full min-h-dvh bg-white flex items-center justify-center ">
+    <section class="w-full min-h-dvh bg-black flex items-center justify-center border-gray-700 border-b-[6px] rounded-b-[25px]  ">
       <h2 class="text-3xl sm:text-5xl lg:text-6xl font-semibold text-black text-center"> Another Project yet to decide</h2>
     </section>
-  
+ 
 
-  <footer class="grid h-[50vh] w-full bg-black text-gray-300  ">
+  <footer class="grid h-[50vh] w-full bg-white text-gray-300 border-gray-300 border-t-[6px] rounded-t-[25px] ">
     <div class="flex flex-col md:flex-row justify-between items-center w-full max-w-6xl mx-auto">
       <p class="text-sm">&copy; 2025 Priyanshu Sharma. All rights reserved.</p>
       <div class="flex gap-4 mt-4 md:mt-0">
@@ -143,9 +160,32 @@
       </div>
     </div>
   </footer>
+  <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
+<dotlottie-wc src="https://lottie.host/3952c2bb-d2d3-4b39-8482-cd4f6ac898c4/xZZIDl8jKY.lottie" speed="1" class="relative my-0" style="width: 100px; height: 100px" mode="forward" loop autoplay>
+  <div class="absolute h-[6px] w-[100vw] bg-green-300 top-[84px] my-0 "> </div>
+</dotlottie-wc>
   
   <script src="script.js"> 
+  
 
   </script>
+  <script src="https://unpkg.com/@studio-freight/lenis/dist/lenis.min.js"></script>
+  <script>
+    // Initialize Lenis
+    const lenis = new Lenis({
+      duration: 1.4, // smoothness (default 1.2)
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // easing function
+      smooth: true,
+    })
+
+    // RAF loop
+    function raf(time) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+
+    requestAnimationFrame(raf)
+  </script>
+
 </body>
 </html>

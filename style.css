@@ -1,16 +1,27 @@
 body{
-    font-family:"Roboto";
+
+ 
     -webkit-font-smoothing: antialiased;
     margin:0px;
     padding:0px;
     overflow-x: hidden;
 }
 
-
-font-face{
-  font-family:crude;
-  src: url(fonts/Crude.otf);
+.dot{
+  background-color: black;
+  height:20px;
+  width:20px;
+  border-radius: 50%;
+  z-index:1;
 }
+
+@font-face {
+  font-family: 'brue';
+  src: url('fonts/beausite-font-family-1758858872-0/BeausiteClassicTrial-Regular-BF6424edc02738f.otf') format('opentype');
+  font-weight: normal;
+  font-style: bold;
+}
+
 *{
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
@@ -19,11 +30,11 @@ font-face{
   background-color:#121111;
   overflow: hidden;
   font-size: 20px;
+  font-family:'brue' ;
   max-width:300px;
   color:white;
   font-weight:bold;
   padding:10px;
-  display:none;
   z-index:20;
 }
 .weather-img{
@@ -32,7 +43,17 @@ font-face{
   width:100%;
   rotate:270deg;
 }
-
+.home-button:hover{
+  .lottie-cat{
+    display:inline-block;
+    margin:0;
+    padding:0;
+  }
+}
+.running{
+  color:red;
+  background-color:cyan;
+}
 
 
 .home-div{
@@ -51,7 +72,7 @@ font-face{
   transition:transform 800ms ease;
 }
 .tile:hover{
-  transform:  scale(1.2);
+  transform:  scale(1.1);
 }
 
 .tile:hover > img{
