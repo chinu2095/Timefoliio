@@ -41,7 +41,7 @@
 
   <div class="h-[100vh] w-[100vw] relative home-div"> 
  
-    <section class="border-green-500 flex flex-col items-center justify-center flex-1 text-center  relative h-[50vh] ">
+    <section class="  flex flex-col items-center justify-center flex text-center  relative h-[50vh] name-section">
       <h1 class="   text-gray-800 text-[4rem] md:text-[8rem]  xl:text-[10rem] mt-[20vh] font-extrabold tracking-tight leading-none hover:text-gray-800 z-20 z-20">
         PRIYANSHU
       </h1>
@@ -54,7 +54,7 @@
   <div id="gallery">
     <div class="tile"><img src="assets/f1.jpg"/></div>
     <div class="tile"><img src="assets/broccoli-8174625_1280.jpg"/></div>
-    <div class="tile"><img src="assets/cat.webp"/></div>
+    <div class="tile"><img src="assets/sunflower.jpg"/></div>
     <div class="tile"><img src="assets/insect.webp"/></div>
     <div class="tile"><img src="assets/knight.jpg"/></div>
     <div class="tile"><img src="assets/kungfu.jpg"/></div>
@@ -85,29 +85,26 @@
 
 
     <!-- About Section -->
-    <section class=" h-auto bg-black flex text-white flex-col justify-center items-center py-8 dream-section rounded-t-2xl ">
-       <p class="text-[4.3rem] md:text-[8rem]  xl:text-[8rem] font-bold m-0 p-0"><span class="inline">C</span>
-        <span class="inline m-[0px]">U</span>
-        <span class="inline">R</span>
-        <span class="inline">I</span>
-        <span class="inline">O</span>
-        <span class="inline">C</span>
-        <span class="inline">I</span>
-        <span class="inline">T</span>
-        <span class="inline">Y</span></p>
-       <p class="text-[4.3rem] md:text-[8rem]  xl:text-[8rem] font-bold">CREATIVITY</p>
-       <p class="text-[4.3rem] md:text-[8rem]  xl:text-[8rem] font-bold">RESULTS</p>
-       <p class="text-[4.3rem] md:text-[8rem]  xl:text-[8rem] font-bold">DELIVERY</p>
-       <button class="text-[4.3rem] md:text-[8rem]  xl:text-[8rem] font-bold dreamzz">DREAM</button>
-     
-    </section>
+<!-- Outer container for vertical scroll space -->
+<section class="h-[200vh] bg-black text-white dream-section font-[breu] relative overflow-hidden dream-section">
+  
+  <!-- Inner wrapper that holds the horizontal items -->
+  <div class="flex h-screen w-[500vw] sticky top-0">
+    <div class="flex items-center justify-center text-[4.3rem] md:text-[8rem] xl:text-[8rem] font-bold h-full w-[100vw] bg-cyan-400">CURIOSITY</div>
+    <div class="flex items-center justify-center text-[4.3rem] md:text-[8rem] xl:text-[8rem] font-bold h-full w-[100vw] bg-gray-600">CREATIVITY</div>
+    <div class="flex items-center justify-center text-[4.3rem] md:text-[8rem] xl:text-[8rem] font-bold h-full w-[100vw] bg-green-300">RESULTS</div>
+    <div class="flex items-center justify-center text-[4.3rem] md:text-[8rem] xl:text-[8rem] font-bold h-full w-[100vw] bg-red-400">DELIVERY</div>
+    <div class="flex items-center justify-center text-[4.3rem] md:text-[8rem] xl:text-[8rem] font-bold h-full w-[100vw] bg-yellow-400">DREAM</div>
+  </div>
+
+</section>
 
   
     <!-- Project 1 -->
-    <section class=" bg-gray-300 w-[100vw] h-[100vh] bg-gray-100 overflow-hidden  flex flex-col items-center justify-center">
+    <section class=" bg-gray-300 w-[100vw] h-[100vh] bg-gray-100 overflow-hidden  flex flex-col items-center justify-center weatherForm">
       <div class="py-[50px] "><h1 class=" font-extrabold text-[4rem] leading-tight">Weather Apk</h1></div>
-      <form >
-        <div class="rounded-2xl bg-white/20 backdrop-blur-2xl shadow-lg p-6 w-80 flex flex-col justify-between weather-pg z-10">
+      <form>
+        <div class="rounded-2xl bg-white/20 backdrop-blur-2xl shadow-lg p-6 w-80 flex flex-col justify-between weather-pg box z-10">
           <div>
             <div class="flex justify-between items-start mb-6">
               <div>
@@ -119,7 +116,7 @@
                  <br>India
               </span>
             </div>
-             <div class="flex block justify-center mb-3"> <input type="text" placeholder="Enter City" class="px-3 py-2 rounded-lg text-black bg-white/50  focus:outline-none focus:border-gray-700 z-10 backdrop-blur-3xl cityInput"></div>
+             <div class="flex block justify-center mb-3"> <input type="text" placeholder="Enter City" class="px-3 py-2 rounded-lg text-black bg-white/50  focus:outline-none focus:border-gray-700 z-10 backdrop-blur-3xl "></div>
              <div class="flex justify-center mb-3">
               <button class="rounded-xl px-6 py-2 bg-black text-white text-sm hover:bg-gray-800 z-10">Search</button>
             </div>
@@ -135,26 +132,25 @@
  
   
     </section>
+
+    <div class="card"></div>
   
   
     <!-- Project 3 -->
-    <section class="w-full min-h-dvh bg-black flex items-center justify-center">
+    <section class="w-full min-h-dvh bg-black flex items-center justify-center border-gray-700 border-b-[6px] rounded-b-[25px]">
       <h2 class="text-3xl sm:text-5xl lg:text-6xl font-semibold text-white text-center">Amazon Clone</h2>
     </section>
   
-    <!-- Project 4 -->
-    <section class="w-full min-h-dvh bg-black flex items-center justify-center border-gray-700 border-b-[6px] rounded-b-[25px]  ">
-      <h2 class="text-3xl sm:text-5xl lg:text-6xl font-semibold text-black text-center"> Another Project yet to decide</h2>
-    </section>
+
  
 
-  <footer class="grid h-[50vh] w-full bg-white text-gray-300 border-gray-300 border-t-[6px] rounded-t-[25px] ">
+  <footer class="grid h-[50vh] w-full bg-white text-gray-300 border-gray-300 border-t-[6px] box rounded-t-[25px] ">
     <div class="flex flex-col md:flex-row justify-between items-center w-full max-w-6xl mx-auto">
       <p class="text-sm">&copy; 2025 Priyanshu Sharma. All rights reserved.</p>
       <div class="flex gap-4 mt-4 md:mt-0">
         <a href="#" class="hover:text-white">links</a>
         <a href="#" class="hover:text-white">About</a>
-        <a href="www.youtube.com" class="hover:text-white">Contact</a>
+        <a href="#" class="hover:text-white">Contact</a>
       </div>
     </div>
   </footer>
@@ -163,7 +159,7 @@
   <div class="absolute h-[6px] w-[100vw] bg-green-300 top-[84px] my-0 "> </div>
 </dotlottie-wc>
   
-  <script src="script.js"> 
+  <script type="module" src="script.js"> 
   
 
   </script>
@@ -171,8 +167,8 @@
   <script>
     // Initialize Lenis
     const lenis = new Lenis({
-      duration: 1.4, // smoothness (default 1.2)
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // easing function
+      duration: 1.5, // smoothness (default 1.2)
+      easing: (t) => Math.min(1, 1.01 - Math.pow(2, -10 * t)), // easing function
       smooth: true,
     })
 
